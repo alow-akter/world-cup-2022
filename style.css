@@ -1,0 +1,117 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+/*common style*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*bannar style start*/
+.top-banner {
+    width: 1250px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    margin: 50px 140px 139px;
+}
+
+.banner-item {
+    display: flex;
+    margin: 50px;
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700px;
+}
+
+.paragrap-area {
+    font-size: 16px;
+
+}
+
+/*nav section start*/
+.nav-section {
+    margin: 30px;
+}
+
+.nav-section button {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+
+.banner-img img {
+    width: 581px;
+    height: 613px;
+}
+
+/*player section start*/
+.player-section {
+    margin-top: 130px;
+    gap: 24px;
+}
+
+.link-area {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.link-area a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 5px 50px 10px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#anchor-tag {
+    padding: 10px 50px 10px;
+    background-color: #DD0000;
+}
+
+.player-section {
+    display: flex;
+}
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.plyaer-card {
+    width: 312px;
+    height: 362px;
+    box-shadow: 10px 10px 15px gray;
+}
+
+.player-img {
+    height: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+button {
+    width: 100px;
+    height: 32px;
+    margin: 10px;
+}
