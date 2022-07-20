@@ -115,3 +115,28 @@ button {
     height: 32px;
     margin: 10px;
 }
+
+.last-section {
+    text-align: center;
+    width: 100%px;
+    height: 200px;
+    background-color: #161616;
+    color: white;
+    margin-top: 50px;
+
+}
+
+hr {
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    font-size: 20px;
+}
+
+span {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 30px;
+}
