@@ -1,0 +1,155 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+/*common style*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*bannar style start*/
+.top-banner-one {
+    width: 1250px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    margin: 50px 140px 139px;
+}
+
+.banner-item-secand {
+    display: flex;
+    margin: 50px;
+}
+
+.banner-text-one {
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700px;
+}
+
+.paragrap-area-first {
+    font-size: 16px;
+}
+
+.nav-section-1 {
+    margin: 30px;
+
+}
+
+.nav-section-1 button {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.banner-img-png img {
+    width: 581px;
+    height: 613px;
+}
+
+.first-section-1 {
+    margin-top: 130px;
+    gap: 24px;
+}
+
+.link-area-1 {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.link-area-1 a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 5px 50px 10px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#upcoming {
+    padding: 10px 50px 10px;
+    background-color: #DD0000;
+}
+
+
+.player-section-match-1 {
+    display: flex;
+}
+
+.player-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.player-card-1 {
+    width: 352px;
+    height: 250px;
+    box-shadow: 5px 10px 0px 0px grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flag {
+    display: flex;
+    width: 252px;
+    height: 100px;
+
+}
+
+.player-img img {
+    width: 156px;
+    height: 84px;
+    border-radius: 5px;
+
+}
+
+.gramany img {
+    width: 156px;
+    height: 84px;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.player-text-start {
+    text-align: center;
+
+}
+
+.last-section-is {
+    text-align: center;
+    width: 1400px;
+    height: 200px;
+    background-color: #161616;
+    color: white;
+    margin-top: 50px;
+
+}
+
+hr {
+    width: 800px;
+    margin-bottom: 30px;
+
+}
+
+.end {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 30px;
+}
