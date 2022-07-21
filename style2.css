@@ -134,7 +134,7 @@ span {
 
 .last-section-is {
     text-align: center;
-    width: 1400px;
+    width: 1200px;
     height: 200px;
     background-color: #161616;
     color: white;
@@ -152,4 +152,17 @@ hr {
     margin-bottom: 50px;
     margin-top: 50px;
     margin: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .player-one {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and(max-width:1024px) {
+    .player-one {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
